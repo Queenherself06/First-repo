@@ -1,0 +1,1287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-class {
+  background: #d5d5d5;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+.main-class .inner-class {
+  width: 44rem;
+  background: rgb(16, 16, 16);
+}
+.main-class .inner-class .home-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.725), rgba(0, 0, 0, 0.725)), url("../images/homeimage.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+.main-class .inner-class .home-image .logos-parent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 16rem;
+}
+.main-class .inner-class .home-image .logos-parent .logos-child:first-child img {
+  width: 3.5rem;
+}
+.main-class .inner-class .home-image .logos-parent .logos-child:last-child img {
+  width: 23rem;
+  margin-top: 2rem;
+}
+.main-class .inner-class .home-image .home-description {
+  color: white;
+  margin-top: 16rem;
+  margin-left: 3rem;
+}
+.main-class .inner-class .home-image .home-description h1 {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+.main-class .inner-class .home-image .home-description p {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.main-class .inner-class .home-image .home-description .explore-button {
+  margin-top: 3rem;
+}
+.main-class .inner-class .home-image .home-description .explore-button button {
+  padding: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.main-class .inner-class .login-wraper .login-wraper-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-class .inner-class .login-wraper .login-wraper-parent .login-wraper-child h1 {
+  color: white;
+  margin-top: 12rem;
+  font-size: 2.8rem;
+  font-weight: 300;
+}
+.main-class .inner-class .login-wraper .login-wraper-parent .login-wraper-child img {
+  margin-top: 2rem;
+  width: 25rem;
+}
+.main-class .inner-class .login-wraper .auth-options .auth-options-parent {
+  display: flex;
+  justify-content: space-around;
+}
+.main-class .inner-class .login-wraper .auth-options .auth-options-parent .auth-options-child:first-child {
+  background-color: rgb(36, 34, 34);
+}
+.main-class .inner-class .login-wraper .auth-options .auth-options-parent .auth-options-child {
+  margin-top: 5rem;
+}
+.main-class .inner-class .login-wraper .auth-options .auth-options-parent .auth-options-child h2 {
+  color: white;
+  padding: 1.5rem 8.3rem;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+.main-class .inner-class .login-wraper .login-form-wraper {
+  padding-bottom: 2.5rem;
+  background-color: rgb(36, 34, 34);
+}
+.main-class .inner-class .login-wraper .login-form-wraper .login-form {
+  padding: 3rem;
+}
+.main-class .inner-class .login-wraper .login-form-wraper .login-form .login-form-parent {
+  margin-top: 4.2rem;
+}
+.main-class .inner-class .login-wraper .login-form-wraper .login-form .login-form-parent .login-form-child {
+  margin-bottom: 1.5rem;
+}
+.main-class .inner-class .login-wraper .login-form-wraper .login-form .login-form-parent .login-form-child input {
+  font-size: 1.7rem;
+  padding: 1.6rem 1.2rem;
+  width: 100%;
+  border-radius: 1.2rem;
+  outline: none;
+}
+.main-class .inner-class .login-wraper .login-form-wraper .login-form p {
+  color: white;
+  text-align: end;
+  margin-top: 2rem;
+  margin-right: 3.5rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.main-class .inner-class .login-wraper .login-button {
+  margin-top: 10rem;
+  text-align: center;
+  padding: 0rem 2.5rem;
+}
+.main-class .inner-class .login-wraper .login-button button {
+  padding: 2rem 2rem;
+  width: 100%;
+  font-size: 1.7rem;
+  font-weight: 700;
+  border-radius: 1rem;
+}
+.main-class .inner-class .login-wraper .login-button p {
+  margin-top: 2rem;
+  color: rgb(158, 157, 157);
+  font-size: 1.3rem;
+}
+.main-class .inner-class .login-wraper .login-button p span {
+  text-decoration: underline;
+  color: white;
+}
+.main-class .inner-class .main-logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  flex-direction: column;
+  align-items: center;
+}
+.main-class .inner-class .main-logo img {
+  width: 27rem;
+}
+.main-class .inner-class .main-logo p {
+  color: white;
+  margin-top: 3.5rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  word-spacing: 0.2rem;
+}
+.main-class .inner-class .main-logo .border {
+  width: 100%;
+  margin-top: 2rem;
+}
+.main-class .inner-class .main-logo .border .reservation-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.725), rgba(0, 0, 0, 0.725)), url("../images/reservationimage.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding-top: 8rem;
+  padding-bottom: 3rem;
+}
+.main-class .inner-class .main-logo .border .reservation-image h1 {
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 400;
+  margin-left: 3rem;
+}
+.main-class .inner-class .main-logo .border .reservation-image .reservation-border {
+  border: 0.13rem solid white;
+  width: 25%;
+  border-radius: 1rem;
+  margin-left: 3rem;
+  margin-top: 6rem;
+}
+.main-class .inner-class .main-logo .border .reservation-image .reservation-description p {
+  padding: 3rem;
+  font-weight: 400;
+  padding-bottom: 5rem;
+}
+.main-class .inner-class .quick-action-wrapper {
+  padding: 3rem;
+}
+.main-class .inner-class .quick-action-wrapper h1 {
+  color: white;
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+.main-class .inner-class .quick-action-wrapper .quick-action-parent {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.main-class .inner-class .quick-action-wrapper .quick-action-parent .quick-action-child img {
+  background: rgb(40, 40, 40);
+  padding: 1.2rem;
+  height: 5rem;
+  border-radius: 1.2rem;
+}
+.main-class .inner-class .quick-action-wrapper .quick-action-parent .quick-action-child p {
+  color: white;
+  padding-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-align: center;
+}
+.main-class .inner-class .promo-package-wrapper {
+  padding: 3rem;
+}
+.main-class .inner-class .promo-package-wrapper .promo-wrapper-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-class .inner-class .promo-package-wrapper .promo-wrapper-parent .promo-wrapper-child h1 {
+  color: white;
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+.main-class .inner-class .promo-package-wrapper .promo-wrapper-parent .promo-wrapper-child img {
+  padding: 1rem;
+  background: rgb(40, 40, 40);
+  height: 3.5rem;
+}
+.main-class .inner-class .promo-package-wrapper .promo-package-parent {
+  width: 100%;
+  padding: 3rem;
+}
+.main-class .inner-class .promo-package-wrapper .promo-package-parent .promo-package-child {
+  background-color: rgb(27, 27, 27);
+  border-radius: 1.5rem;
+}
+.main-class .inner-class .promo-package-wrapper .promo-package-parent .promo-package-child img {
+  width: 100%;
+}
+.main-class .inner-class .promo-package-wrapper .promo-package-parent .promo-package-child .paragraph {
+  background-color: black;
+  color: white;
+  width: 10%;
+  padding: 0.5rem;
+}
+.main-class .inner-class .promo-package-wrapper .promo-package-parent .promo-package-child h1 {
+  color: white;
+  padding-left: 2rem;
+  padding-top: 1.5rem;
+  font-weight: 400;
+}
+.main-class .inner-class .promo-package-wrapper .promo-package-parent .promo-package-child h2 {
+  color: rgb(233, 233, 195);
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+.main-class .inner-class .membership-status-wrapper {
+  padding: 3rem;
+}
+.main-class .inner-class .membership-status-wrapper .membership-wrapper-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-class .inner-class .membership-status-wrapper .membership-wrapper-parent .membership-wrapper-child h1 {
+  color: white;
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+.main-class .inner-class .membership-status-wrapper .membership-wrapper-parent .membership-wrapper-child img {
+  padding: 1rem;
+  background: rgb(40, 40, 40);
+  height: 3.5rem;
+}
+.main-class .inner-class .membership-status-wrapper .membership-status-parent {
+  width: 100%;
+  padding: 3rem;
+}
+.main-class .inner-class .membership-status-wrapper .membership-status-parent .membership-status-child {
+  background-color: rgb(27, 27, 27);
+  border-radius: 1.5rem;
+}
+.main-class .inner-class .membership-status-wrapper .membership-status-parent .membership-status-child .membership-info-img {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+}
+.main-class .inner-class .membership-status-wrapper .membership-status-parent .membership-status-child .membership-info-img img {
+  width: 45%;
+  align-items: center;
+}
+.main-class .inner-class .membership-status-wrapper .membership-status-parent .membership-status-child .membership-info h1 {
+  color: white;
+  text-align: center;
+  padding: 0.7rem;
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+.main-class .inner-class .membership-status-wrapper .membership-status-parent .membership-status-child .membership-info h2 {
+  padding: 1rem;
+  color: rgb(233, 233, 195);
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+.main-class .inner-class .membership-status-wrapper .membership-status-parent .membership-status-child .unlock-icon {
+  padding: 0.8rem;
+  padding-bottom: 3rem;
+}
+.main-class .inner-class .membership-status-wrapper .membership-status-parent .membership-status-child .unlock-icon .unlock-icon-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-class .inner-class .membership-status-wrapper .membership-status-parent .membership-status-child .unlock-icon .unlock-icon-parent .unlock-icon-child {
+  align-items: center;
+}
+.main-class .inner-class .membership-status-wrapper .membership-status-parent .membership-status-child .unlock-icon .unlock-icon-parent .unlock-icon-child img {
+  height: 2rem;
+}
+.main-class .inner-class .membership-status-wrapper .membership-status-parent .membership-status-child .unlock-icon .unlock-icon-parent .unlock-icon-child h2 {
+  color: rgb(233, 233, 195);
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 400;
+  padding-left: 1rem;
+}
+.main-class .inner-class .business-partner-wrapper {
+  padding: 3rem;
+}
+.main-class .inner-class .business-partner-wrapper .business-partner-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-class .inner-class .business-partner-wrapper .business-partner-parent .business-partner-child h1 {
+  color: white;
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+.main-class .inner-class .business-partner-wrapper .business-partner-parent .business-partner-child img {
+  padding: 1rem;
+  background: rgb(40, 40, 40);
+  height: 3.5rem;
+}
+.main-class .inner-class .business-partner-wrapper .business-img-parent {
+  width: 100%;
+  padding: 3rem;
+}
+.main-class .inner-class .business-partner-wrapper .business-img-parent .business-img-child {
+  background-color: rgb(27, 27, 27);
+  border-radius: 1.5rem;
+}
+.main-class .inner-class .business-partner-wrapper .business-img-parent .business-img-child .business-info-img {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+}
+.main-class .inner-class .business-partner-wrapper .business-img-parent .business-img-child .business-info-img img {
+  width: 100%;
+  align-items: center;
+}
+.main-class .inner-class .navigation-bar-wrapper {
+  background-color: rgb(27, 27, 27);
+  margin-top: 2rem;
+}
+.main-class .inner-class .navigation-bar-wrapper .navigation-bar-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-class .inner-class .navigation-bar-wrapper .navigation-bar-parent .navigation-bar-child .navigation-info-image {
+  width: 100%;
+}
+.main-class .inner-class .navigation-bar-wrapper .navigation-bar-parent .navigation-bar-child .navigation-info-image img {
+  height: 3.5rem;
+}
+.main-class .inner-class .navigation-bar-wrapper .navigation-bar-parent .navigation-bar-child .navigation-info-image h3 {
+  color: white;
+  padding-top: 0.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.main-class .inner-class .data-optimization-wrapper {
+  margin-top: 5rem;
+  padding: 2rem;
+}
+.main-class .inner-class .data-optimization-wrapper .page-title-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-class .inner-class .data-optimization-wrapper .page-title-parent .page-title-child img {
+  width: 4rem;
+  height: auto;
+  border: 0.35rem solid rgb(118, 117, 117);
+  border-radius: 3.5rem;
+  padding: 0.7rem;
+}
+.main-class .inner-class .data-optimization-wrapper .page-title-parent .page-title-child h1 {
+  color: white;
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+.main-class .inner-class .data-optimization-wrapper .page-description-image {
+  padding-top: 3rem;
+}
+.main-class .inner-class .data-optimization-wrapper .page-description-image .description-image-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-class .inner-class .data-optimization-wrapper .page-description-image .description-image-parent .description-image-child {
+  background-color: rgb(27, 27, 27);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+  border-radius: 0.8rem;
+  flex: 1;
+}
+.main-class .inner-class .data-optimization-wrapper .page-description-image .description-image-parent .description-image-child .description-img img {
+  height: 5.5rem;
+  width: 5.5rem;
+}
+.main-class .inner-class .data-optimization-wrapper .page-description-image .description-image-parent .description-image-child .description-img .img-info {
+  color: white;
+}
+.main-class .inner-class .data-optimization-wrapper .page-description-image .description-image-parent .description-image-child .description-img .img-info p {
+  padding-bottom: 0.7rem;
+  font-size: 1.5rem;
+  padding-right: 3.5rem;
+}
+.main-class .inner-class .data-optimization-wrapper .page-description-image .description-image-parent .description-image-child .description-img .img-info h2 {
+  padding-bottom: 0.7rem;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+.main-class .inner-class .data-optimization-wrapper .page-description-image .description-image-parent .description-image-child .description-img .img-info h1 {
+  font-weight: 400;
+  color: rgb(192, 193, 196);
+}
+.main-class .inner-class .data-optimization-wrapper .booking-button {
+  width: 98%;
+  display: flex;
+  justify-content: center;
+  border: 0.18rem solid rgb(74, 72, 72);
+  align-items: center;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 0.8rem;
+}
+.main-class .inner-class .data-optimization-wrapper .booking-button h1 {
+  color: white;
+  padding: 1.3rem;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+.main-class .inner-class .data-optimization-wrapper .explore-image {
+  padding: 1rem;
+  margin-top: 3rem;
+}
+.main-class .inner-class .data-optimization-wrapper .explore-image .img-title h1 {
+  color: white;
+  margin-bottom: 2.5rem;
+  font-weight: 400;
+  font-size: 2.3rem;
+}
+.main-class .inner-class .data-optimization-wrapper .explore-image .main-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../images/explore-image.jpg");
+  height: 38rem;
+  background-size: cover;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+.main-class .inner-class .data-optimization-wrapper .explore-image .main-img .img-description {
+  color: white;
+  margin-left: 3rem;
+}
+.main-class .inner-class .data-optimization-wrapper .explore-image .main-img .img-description h1 {
+  font-size: 2.3rem;
+  font-weight: 300;
+  padding-top: 23rem;
+}
+.main-class .inner-class .data-optimization-wrapper .explore-image .main-img .img-description p {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.main-class .inner-class .data-optimization-wrapper .explore-image .yacht-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.552)), url("../images/yacht-image.jpg");
+  height: 38rem;
+  background-size: cover;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+.main-class .inner-class .data-optimization-wrapper .explore-image .yacht-img .img-description {
+  color: white;
+  margin-left: 3rem;
+}
+.main-class .inner-class .data-optimization-wrapper .explore-image .yacht-img .img-description h1 {
+  font-size: 2.3rem;
+  font-weight: 300;
+  padding-top: 23rem;
+}
+.main-class .inner-class .data-optimization-wrapper .explore-image .yacht-img .img-description p {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.main-class .inner-class .data-optimization-wrapper .explore-image .wine-tour-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.552)), url("../images/wine-tour.jpg");
+  height: 38rem;
+  background-size: cover;
+  border-radius: 1rem;
+}
+.main-class .inner-class .data-optimization-wrapper .explore-image .wine-tour-img .img-description {
+  color: white;
+  margin-left: 3rem;
+}
+.main-class .inner-class .data-optimization-wrapper .explore-image .wine-tour-img .img-description h1 {
+  font-size: 2.3rem;
+  font-weight: 300;
+  padding-top: 23rem;
+}
+.main-class .inner-class .data-optimization-wrapper .explore-image .wine-tour-img .img-description p {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.main-class .inner-class .background-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.079), rgba(0, 0, 0, 0.552)), url("../images/Submit-image.png");
+  height: 55rem;
+  background-size: cover;
+}
+.main-class .inner-class .background-image .arrow-icon img {
+  width: 3rem;
+  height: auto;
+  border: 0.2rem solid rgb(118, 117, 117);
+  border-radius: 3.5rem;
+  padding: 0.5rem;
+  margin-top: 7rem;
+  margin-left: 3rem;
+}
+.main-class .inner-class .background-image .submit-details {
+  background-color: rgb(19, 19, 19);
+  margin-top: 32rem;
+  border-radius: 1.5rem;
+}
+.main-class .inner-class .background-image .submit-details .submit-details-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 3rem;
+}
+.main-class .inner-class .background-image .submit-details .submit-details-parent .submit-details-child {
+  color: white;
+  padding-top: 2rem;
+}
+.main-class .inner-class .background-image .submit-details .submit-details-parent .submit-details-child h1 {
+  font-size: 2.3rem;
+  font-weight: 400;
+}
+.main-class .inner-class .background-image .submit-details .submit-details-parent .submit-details-child p {
+  padding-bottom: 0.3rem;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.main-class .inner-class .background-image .submit-details .border {
+  border: 0.13rem solid rgb(166, 160, 160);
+  width: 15%;
+  margin-top: 3.5rem;
+  margin-left: 3rem;
+}
+.main-class .inner-class .background-image .submit-details .price-option {
+  margin-top: 3rem;
+}
+.main-class .inner-class .background-image .submit-details .price-option .price-option-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-class .inner-class .background-image .submit-details .price-option .price-option-parent .price-option-child {
+  border: 0.12rem solid white;
+  color: white;
+  padding: 1rem;
+  padding-right: 6.5rem;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+}
+.main-class .inner-class .background-image .submit-details .price-option .price-option-parent .price-option-child p {
+  color: #8c8b8b;
+  padding-bottom: 0.5rem;
+}
+.main-class .inner-class .background-image .submit-details .price-option .price-option-parent .price-option-child h2 {
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+.main-class .inner-class .background-image .submit-details .rating-option .rating-option-parent {
+  margin: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.main-class .inner-class .background-image .submit-details .rating-option .rating-option-parent .rating-option-child {
+  color: white;
+}
+.main-class .inner-class .background-image .submit-details .rating-option .rating-option-parent .rating-option-child h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding-bottom: 0.5rem;
+}
+.main-class .inner-class .background-image .submit-details .rating-option .rating-option-parent .rating-option-child p {
+  color: #8c8b8b;
+}
+.main-class .inner-class .background-image .submit-details .submit-button {
+  margin: 5rem 3rem;
+}
+.main-class .inner-class .background-image .submit-details .submit-button button {
+  padding: 1.3rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+.main-class .inner-class .records-wrapper {
+  margin-top: 5rem;
+  padding: 2rem;
+}
+.main-class .inner-class .records-wrapper .page-title-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-class .inner-class .records-wrapper .page-title-parent .page-title-child {
+  color: white;
+}
+.main-class .inner-class .records-wrapper .page-title-parent .page-title-child img {
+  width: 3rem;
+  height: auto;
+  border: 0.2rem solid rgb(118, 117, 117);
+  border-radius: 3.5rem;
+  padding: 0.5rem;
+}
+.main-class .inner-class .records-wrapper .page-title-parent .page-title-child h1 {
+  font-size: 2.6rem;
+}
+.main-class .inner-class .records-wrapper .navigation-heading {
+  margin-top: 4rem;
+}
+.main-class .inner-class .records-wrapper .navigation-heading .navigation-heading-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-class .inner-class .records-wrapper .navigation-heading .navigation-heading-parent .navigation-heading-child {
+  color: #aea9a9;
+}
+.main-class .inner-class .records-wrapper .navigation-heading .navigation-heading-parent .navigation-heading-child h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.main-class .inner-class .records-wrapper .card-details {
+  margin-top: 4rem;
+  border: 0.15rem solid rgb(61, 60, 60);
+  border-radius: 1rem;
+}
+.main-class .inner-class .records-wrapper .card-details .details-img {
+  display: flex;
+  justify-content: center;
+}
+.main-class .inner-class .records-wrapper .card-details .details-img img {
+  height: 20rem;
+  width: 100%;
+  border-radius: 0.8rem;
+}
+.main-class .inner-class .records-wrapper .card-details .img-briefing {
+  background-color: rgb(26, 25, 25);
+  border-radius: 1rem;
+}
+.main-class .inner-class .records-wrapper .card-details .img-briefing .briefing-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-class .inner-class .records-wrapper .card-details .img-briefing .briefing-parent .briefing-child {
+  color: white;
+}
+.main-class .inner-class .records-wrapper .card-details .img-briefing .briefing-parent .briefing-child p {
+  background-color: rgb(26, 25, 25);
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: -2.9rem;
+  border-radius: 0.3rem;
+}
+.main-class .inner-class .records-wrapper .card-details .img-briefing .briefing-parent .briefing-child h2 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-top: -3rem;
+  padding-right: 1.5rem;
+}
+.main-class .inner-class .records-wrapper .card-details .img-briefing .details-heading {
+  margin-top: 2rem;
+  color: white;
+  padding-left: 2rem;
+}
+.main-class .inner-class .records-wrapper .card-details .img-briefing .details-heading h2 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+.main-class .inner-class .records-wrapper .card-details .img-briefing .details-heading p {
+  color: #8c8b8b;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.main-class .inner-class .records-wrapper .card-details .img-briefing .price-option {
+  padding: 2rem;
+}
+.main-class .inner-class .records-wrapper .card-details .img-briefing .price-option .price-option-parent {
+  display: flex;
+  justify-content: space-around;
+}
+.main-class .inner-class .records-wrapper .card-details .img-briefing .price-option .price-option-parent .price-option-child {
+  align-items: center;
+  border: 0.15rem solid rgb(45, 45, 45);
+  color: white;
+  padding: 1.5rem;
+  padding-right: 5rem;
+  border-radius: 0.5rem;
+}
+.main-class .inner-class .records-wrapper .card-details .img-briefing .price-option .price-option-parent .price-option-child p {
+  color: #8c8b8b;
+  padding-bottom: 0.5rem;
+}
+.main-class .inner-class .records-wrapper .card-details .img-briefing .price-option .price-option-parent .price-option-child h2 {
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+.main-class .inner-class .records-wrapper .card-details .img-briefing .submit-button {
+  padding: 2rem 2rem;
+}
+.main-class .inner-class .records-wrapper .card-details .img-briefing .submit-button button {
+  background-color: rgb(45, 45, 45);
+  color: white;
+  padding: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: none;
+}
+.main-class .inner-class .main-div {
+  background: linear-gradient(rgba(0, 0, 0, 0.595), rgba(0, 0, 0, 0.714)), url("../images/support-page-img.jpg");
+  height: 30rem;
+  background-size: cover;
+}
+.main-class .inner-class .main-div .arrow-icon img {
+  width: 3rem;
+  height: auto;
+  border: 0.2rem solid rgb(165, 164, 164);
+  border-radius: 3.5rem;
+  padding: 0.5rem;
+  margin-top: 7rem;
+  margin-left: 3rem;
+}
+.main-class .inner-class .platform-logo {
+  padding-top: 5rem;
+  background-color: rgb(13, 13, 13);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 0.1rem solid rgb(70, 70, 70);
+}
+.main-class .inner-class .platform-logo img {
+  height: 4rem;
+}
+.main-class .inner-class .platform-logo h1 {
+  color: white;
+  text-align: center;
+  padding-top: 1.2rem;
+  font-size: 3rem;
+  font-weight: 400;
+}
+.main-class .inner-class .platform-logo .logo-details {
+  color: white;
+  text-align: center;
+  padding-top: 2.5rem;
+}
+.main-class .inner-class .platform-logo .logo-details h2 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  padding-bottom: 2rem;
+}
+.main-class .inner-class .platform-logo .logo-details h4 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #787878;
+}
+.main-class .inner-class .platform-logo .logo-details p {
+  padding-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.main-class .inner-class .platform-logo .msg-btn {
+  padding: 10rem 0rem;
+  display: flex;
+  justify-content: center;
+}
+.main-class .inner-class .platform-logo .msg-btn button {
+  padding: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  width: 80%;
+  border-radius: 0.5rem;
+}
+.main-class .inner-class .link-wallet-wrapper .arrow-icon img {
+  width: 3rem;
+  height: auto;
+  border: 0.2rem solid rgb(165, 164, 164);
+  border-radius: 3.5rem;
+  padding: 0.5rem;
+  margin-top: 5rem;
+  margin-left: 3rem;
+}
+.main-class .inner-class .link-wallet-wrapper .wallet-details {
+  margin-top: 5rem;
+  text-align: center;
+}
+.main-class .inner-class .link-wallet-wrapper .wallet-details h1 {
+  color: white;
+  font-size: 2.7rem;
+  font-weight: 400;
+}
+.main-class .inner-class .link-wallet-wrapper .wallet-details img {
+  padding-top: 1.5rem;
+  height: 3.7rem;
+}
+.main-class .inner-class .wallet-form {
+  margin-top: 5rem;
+  background-color: #1f1e1e;
+  border-top: 0.1rem solid rgb(70, 70, 70);
+  border-radius: 1rem 1rem 0rem 0rem;
+  padding-top: 2rem;
+}
+.main-class .inner-class .wallet-form .wallet-form-details {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 3rem;
+}
+.main-class .inner-class .wallet-form .wallet-form-details input,
+.main-class .inner-class .wallet-form .wallet-form-details select {
+  width: 100%;
+  padding: 1.8rem 1.4rem;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+}
+.main-class .inner-class .wallet-form .wallet-form-details input::-moz-placeholder, .main-class .inner-class .wallet-form .wallet-form-details select::-moz-placeholder {
+  font-size: 1.5rem;
+}
+.main-class .inner-class .wallet-form .wallet-form-details input::placeholder,
+.main-class .inner-class .wallet-form .wallet-form-details select::placeholder {
+  font-size: 1.5rem;
+}
+.main-class .inner-class .wallet-form .link-btn {
+  padding: 6rem 3rem;
+  padding-bottom: 10rem;
+  display: flex;
+  justify-content: center;
+  outline: none;
+  border: none;
+}
+.main-class .inner-class .wallet-form .link-btn button {
+  padding: 1.8rem 1.4rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.main-class .inner-class .withdraw-wrapper {
+  margin-top: 5rem;
+}
+.main-class .inner-class .withdraw-wrapper .page-title-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-class .inner-class .withdraw-wrapper .page-title-parent .page-title-child {
+  color: white;
+}
+.main-class .inner-class .withdraw-wrapper .page-title-parent .page-title-child img {
+  width: 3rem;
+  height: auto;
+  border: 0.2rem solid rgb(118, 117, 117);
+  border-radius: 3.5rem;
+  padding: 0.5rem;
+}
+.main-class .inner-class .withdraw-wrapper .page-title-parent .page-title-child h1 {
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+.main-class .inner-class .withdraw-wrapper .wallet-card {
+  background: url("../images/Rectangle.png");
+  background-size: cover;
+  margin: 5rem 3rem 3rem;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+.main-class .inner-class .withdraw-wrapper .wallet-card .card-filling {
+  width: 100%;
+}
+.main-class .inner-class .withdraw-wrapper .wallet-card .card-filling .card-filling-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-class .inner-class .withdraw-wrapper .wallet-card .card-filling .card-filling-parent .card-filling-child img {
+  width: 2rem;
+  height: auto;
+}
+.main-class .inner-class .withdraw-wrapper .wallet-card .card-filling .card-filling-parent .icon img {
+  height: auto;
+  width: 1.5rem;
+}
+.main-class .inner-class .withdraw-wrapper .wallet-card .card-filling-details {
+  margin-top: 2rem;
+  color: white;
+}
+.main-class .inner-class .withdraw-wrapper .wallet-card .card-filling-details p {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+.main-class .inner-class .withdraw-wrapper .wallet-card .card-filling-details h1 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 4.5rem;
+}
+.main-class .inner-class .withdraw-wrapper .wallet-card .card-filling-details h1 span {
+  font-size: 2.4rem;
+}
+.main-class .inner-class .withdraw-wrapper .card-info {
+  margin-top: 20rem;
+  text-align: center;
+}
+.main-class .inner-class .withdraw-wrapper .card-info h2 {
+  font-size: 2.1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: white;
+}
+.main-class .inner-class .withdraw-wrapper .card-info p {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: #787878;
+}
+.main-class .inner-class .withdraw-wrapper .link-btn {
+  padding: 6rem 2rem;
+  display: flex;
+  justify-content: center;
+  outline: none;
+  border: none;
+}
+.main-class .inner-class .withdraw-wrapper .link-btn button {
+  padding: 1.8rem 1.4rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.main-class .inner-class .withdraw-wrapper .card-details {
+  margin: 3rem;
+}
+.main-class .inner-class .withdraw-wrapper .card-details h3 {
+  color: white;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+.main-class .inner-class .withdraw-wrapper .card-details .price-option {
+  border: 0.1rem solid #787878;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.main-class .inner-class .withdraw-wrapper .card-details .price-option p {
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #787878;
+}
+.main-class .inner-class .withdraw-wrapper .card-details .price-option h2 {
+  color: white;
+  padding-top: 0.7rem;
+  font-weight: 400;
+}
+.main-class .inner-class .withdraw-wrapper .card-details .price-option-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+}
+.main-class .inner-class .withdraw-wrapper .card-details .price-option-parent .price-option-child {
+  border: 0.1rem solid #787878;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  flex: 1;
+  margin: 0.2rem;
+}
+.main-class .inner-class .withdraw-wrapper .card-details .price-option-parent .price-option-child h2 {
+  color: #787878;
+  font-weight: 400;
+  font-size: 1.4rem;
+  text-align: center;
+}
+.main-class .inner-class .withdraw-wrapper .card-details .password-title {
+  margin-top: 2.5rem;
+}
+.main-class .inner-class .withdraw-wrapper .card-details .password-title h3 {
+  color: white;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+.main-class .inner-class .withdraw-wrapper .card-details .password-title .withdrawal-password {
+  margin-top: 1.4rem;
+  border: 0.1rem solid #787878;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.main-class .inner-class .withdraw-wrapper .card-details .password-title .withdrawal-password p {
+  color: #787878;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.main-class .inner-class .withdraw-wrapper .card-details .password-title .withdrawal-password h2 {
+  padding-top: 0.5rem;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.main-class .inner-class .withdraw-wrapper .card-details .withdrawal-details {
+  margin-top: 5rem;
+}
+.main-class .inner-class .withdraw-wrapper .card-details .withdrawal-details .withdrawal-to {
+  margin-bottom: 2rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.main-class .inner-class .withdraw-wrapper .card-details .withdrawal-details .withdrawal-to h3 {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  background-color: rgb(16, 16, 16);
+  display: inline-flex;
+  padding: 0rem 1rem;
+}
+.main-class .inner-class .withdraw-wrapper .card-details .withdrawal-details .withdrawal-to div {
+  height: 0.2rem;
+  background-color: #8c8b8b;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main-class .inner-class .withdraw-wrapper .card-details .withdrawal-details .withdrawal-details-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 0.1rem solid #787878;
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+  padding: 1rem;
+  text-align: center;
+}
+.main-class .inner-class .withdraw-wrapper .card-details .withdrawal-details .withdrawal-details-parent .withdrawal-details-child p {
+  color: #787878;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+.main-class .inner-class .withdraw-wrapper .card-details .withdrawal-details .withdrawal-details-parent .withdrawal-details-child h2 {
+  color: white;
+  font-weight: 300;
+}
+.main-class .inner-class .withdraw-wrapper .card-details .withdrawal-details .withdrawal-details-parent2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 0.1rem solid #787878;
+  border-radius: 0rem 0rem 0.5rem 0.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+.main-class .inner-class .withdraw-wrapper .card-details .withdrawal-details .withdrawal-details-parent2 .withdrawal-details-child p {
+  color: #787878;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+.main-class .inner-class .withdraw-wrapper .card-details .withdrawal-details .withdrawal-details-parent2 .withdrawal-details-child h2 {
+  color: white;
+  font-weight: 300;
+}
+.main-class .inner-class .withdraw-history-wrapper {
+  margin-top: 5rem;
+}
+.main-class .inner-class .withdraw-history-wrapper .page-title-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-class .inner-class .withdraw-history-wrapper .page-title-parent .page-title-child {
+  color: white;
+}
+.main-class .inner-class .withdraw-history-wrapper .page-title-parent .page-title-child img {
+  width: 3rem;
+  height: auto;
+  border: 0.2rem solid rgb(118, 117, 117);
+  border-radius: 3.5rem;
+  padding: 0.5rem;
+}
+.main-class .inner-class .withdraw-history-wrapper .page-title-parent .page-title-child h1 {
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+.main-class .inner-class .withdraw-history-wrapper .navigation-heading {
+  margin-top: 4rem;
+}
+.main-class .inner-class .withdraw-history-wrapper .navigation-heading .navigation-heading-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-class .inner-class .withdraw-history-wrapper .navigation-heading .navigation-heading-parent .navigation-heading-child {
+  color: #aea9a9;
+}
+.main-class .inner-class .withdraw-history-wrapper .navigation-heading .navigation-heading-parent .navigation-heading-child h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.main-class .inner-class .withdraw-history-wrapper .transfer-details-wrapper {
+  background-color: #1d1c1c;
+  border-radius: 0.5rem;
+  margin-top: 3rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+.main-class .inner-class .withdraw-history-wrapper .transfer-details-wrapper .transfer-details {
+  color: #d5d5d5;
+  padding-left: 2rem;
+}
+.main-class .inner-class .withdraw-history-wrapper .transfer-details-wrapper .transfer-details h1 {
+  font-size: 1.7rem;
+  font-weight: 400;
+  padding-top: 2rem;
+}
+.main-class .inner-class .withdraw-history-wrapper .transfer-details-wrapper .transfer-details h4 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-top: 0.3rem;
+}
+.main-class .inner-class .withdraw-history-wrapper .transfer-details-wrapper .transfer-details p {
+  padding-top: 1.3rem;
+  font-size: 1.1rem;
+  font-weight: 100;
+}
+.main-class .inner-class .withdraw-history-wrapper .transfer-details-wrapper .border {
+  border: 0.1rem solid #363636;
+  margin: 2rem 2rem;
+}
+.main-class .inner-class .withdraw-history-wrapper .transfer-details-wrapper .transfer-details-parent {
+  margin-top: 1.5rem;
+  padding-left: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.main-class .inner-class .withdraw-history-wrapper .transfer-details-wrapper .transfer-details-parent .transfer-details-child {
+  color: white;
+  padding-bottom: 2rem;
+}
+.main-class .inner-class .withdraw-history-wrapper .transfer-details-wrapper .transfer-details-parent .transfer-details-child h3 {
+  background-color: rgb(212, 94, 51);
+  padding: 0.4rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.main-class .inner-class .withdraw-history-wrapper .transfer-details-wrapper .transfer-details-parent .transfer-details-child span h3 {
+  background-color: rgb(5, 97, 246);
+  margin-right: 13rem;
+}
+.main-class .inner-class .withdraw-history-wrapper .transfer-details-wrapper .transfer-details-parent .transfer-details-child h2 {
+  padding-right: 2rem;
+}
+.main-class .inner-class .login-wraper .page-title-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-class .inner-class .login-wraper .page-title-parent .page-title-child {
+  color: white;
+}
+.main-class .inner-class .login-wraper .page-title-parent .page-title-child img {
+  width: 3rem;
+  height: auto;
+  border: 0.2rem solid rgb(118, 117, 117);
+  border-radius: 3.5rem;
+  padding: 0.5rem;
+}
+.main-class .inner-class .login-wraper .page-title-parent .page-title-child h1 {
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+.main-class .inner-class .login-wraper .login-wraper-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-class .inner-class .login-wraper .login-wraper-parent .login-wraper-child h1 {
+  color: white;
+  margin-top: 12rem;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+.main-class .inner-class .login-wraper .login-wraper-parent .login-wraper-child img {
+  margin-top: 2rem;
+  width: 25rem;
+}
+.main-class .inner-class .login-wraper .auth-options .auth-options-parent {
+  display: flex;
+  justify-content: space-around;
+}
+.main-class .inner-class .login-wraper .auth-options .auth-options-parent .auth-options-child:first-child {
+  background-color: rgb(36, 34, 34);
+}
+.main-class .inner-class .login-wraper .auth-options .auth-options-parent .auth-options-child {
+  margin-top: 5rem;
+}
+.main-class .inner-class .login-wraper .auth-options .auth-options-parent .auth-options-child h2 {
+  color: white;
+  padding: 1rem 6.8rem;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+.main-class .inner-class .login-wraper .login-form-wraper {
+  padding-bottom: 2.5rem;
+  background-color: rgb(36, 34, 34);
+}
+.main-class .inner-class .login-wraper .login-form-wraper .login-form {
+  padding: 2rem 3.5rem;
+}
+.main-class .inner-class .login-wraper .login-form-wraper .login-form .login-form-parent {
+  margin-top: 3rem;
+}
+.main-class .inner-class .login-wraper .login-form-wraper .login-form .login-form-parent .login-form-child {
+  margin-bottom: 1.5rem;
+}
+.main-class .inner-class .login-wraper .login-form-wraper .login-form .login-form-parent .login-form-child input {
+  font-size: 1.5rem;
+  padding: 1.3rem 1.2rem;
+  width: 100%;
+  border-radius: 1rem;
+  outline: none;
+}
+.main-class .inner-class .login-wraper .login-button {
+  margin-top: 10rem;
+  text-align: center;
+  padding: 0rem 3.5rem;
+  outline: none;
+}
+.main-class .inner-class .login-wraper .login-button button {
+  padding: 1.5rem 2rem;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 1rem;
+}/*# sourceMappingURL=style.css.map */

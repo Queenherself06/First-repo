@@ -1,0 +1,1676 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.main-class {
+    background: #d5d5d5;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    // align-items: center;
+
+    .inner-class {
+        width: 44rem;
+        background: rgb(16, 16, 16);
+
+
+        .home-image {
+            background: linear-gradient(rgba(0, 0, 0, 0.725), rgba(0, 0, 0, 0.725)), url("../images/homeimage.jpg");
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: right;
+
+            .logos-parent {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 16rem;
+
+                .logos-child:first-child {
+                    img {
+                        width: 3.5rem;
+                    }
+                }
+
+                .logos-child:last-child {
+                    img {
+                        width: 23rem;
+                        margin-top: 2rem;
+                    }
+                }
+            }
+
+            .home-description {
+                color: white;
+                margin-top: 16rem;
+                margin-left: 3rem;
+
+                h1 {
+                    font-size: 3.2rem;
+                    font-weight: 500;
+                }
+
+                p {
+                    margin-top: 2rem;
+                    font-size: 1.5rem;
+                    font-weight: 400;
+                }
+
+                .explore-button {
+                    margin-top: 3rem;
+
+                    button {
+                        padding: 1.5rem;
+                        font-size: 1.3rem;
+                        font-weight: 600;
+
+
+                    }
+                }
+            }
+        }
+
+        // login.html
+
+        .login-wraper {
+
+
+            .login-wraper-parent {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                .login-wraper-child {
+                    h1 {
+                        color: white;
+                        margin-top: 12rem;
+                        font-size: 2.8rem;
+                        font-weight: 300;
+                    }
+
+                    img {
+                        margin-top: 2rem;
+                        width: 25rem;
+                    }
+                }
+            }
+
+            .auth-options {
+
+                .auth-options-parent {
+                    display: flex;
+                    justify-content: space-around;
+
+                    .auth-options-child:first-child {
+                        background-color: rgb(36, 34, 34);
+                    }
+
+                    .auth-options-child {
+                        margin-top: 5rem;
+
+                        h2 {
+                            color: white;
+                            padding: 1.5rem 8.3rem;
+                            font-weight: 400;
+                            font-size: 1.8rem;
+                        }
+                    }
+
+                }
+            }
+
+            .login-form-wraper {
+                padding-bottom: 2.5rem;
+                background-color: rgb(36, 34, 34);
+
+                .login-form {
+                    padding: 3rem;
+
+                    .login-form-parent {
+                        margin-top: 4.2rem;
+
+                        .login-form-child {
+                            margin-bottom: 1.5rem;
+
+                            input {
+                                font-size: 1.7rem;
+                                padding: 1.6rem 1.2rem;
+                                width: 100%;
+                                border-radius: 1.2rem;
+                                outline: none;
+                            }
+                        }
+                    }
+
+                    p {
+                        color: white;
+                        text-align: end;
+                        margin-top: 2rem;
+                        margin-right: 3.5rem;
+                        font-size: 1.4rem;
+                        font-weight: 400;
+
+
+                    }
+                }
+            }
+
+
+            .login-button {
+                margin-top: 10rem;
+                text-align: center;
+                padding: 0rem 2.5rem;
+
+                button {
+                    padding: 2rem 2rem;
+                    width: 100%;
+                    font-size: 1.7rem;
+                    font-weight: 700;
+                    border-radius: 1rem;
+
+                }
+
+                p {
+                    margin-top: 2rem;
+                    color: rgb(158, 157, 157);
+                    font-size: 1.3rem;
+
+                    span {
+                        text-decoration: underline;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        // Reservation.html
+
+        .main-logo {
+            display: flex;
+            justify-content: center;
+            margin-top: 10rem;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                width: 27rem;
+            }
+
+            p {
+                color: white;
+                margin-top: 3.5rem;
+                font-weight: 400;
+                font-size: 1.5rem;
+                word-spacing: 0.2rem;
+            }
+
+            .border {
+                width: 100%;
+                margin-top: 2rem;
+
+
+                .reservation-image {
+                    background: linear-gradient(rgba(0, 0, 0, 0.725), rgba(0, 0, 0, 0.725)), url("../images/reservationimage.jpg");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    width: 100%;
+                    height: 100%;
+                    padding-top: 8rem;
+                    padding-bottom: 3rem;
+
+
+
+                    h1 {
+                        color: white;
+
+                        font-size: 3.5rem;
+                        font-weight: 400;
+                        margin-left: 3rem;
+
+                    }
+
+                    .reservation-border {
+                        border: 0.13rem solid white;
+                        width: 25%;
+                        border-radius: 1rem;
+                        margin-left: 3rem;
+                        margin-top: 6rem;
+                    }
+
+                    .reservation-description {
+                        p {
+                            padding: 3rem;
+                            font-weight: 400;
+                            padding-bottom: 5rem;
+                        }
+                    }
+
+                }
+            }
+
+
+        }
+
+        .quick-action-wrapper {
+            padding: 3rem;
+
+            h1 {
+                color: white;
+                margin-bottom: 2rem;
+                font-size: 2.2rem;
+                font-weight: 400;
+            }
+
+            .quick-action-parent {
+                display: flex;
+                justify-content: space-between;
+                padding: 2rem;
+
+                .quick-action-child {
+
+                    img {
+                        background: rgb(40, 40, 40);
+                        padding: 1.2rem;
+                        height: 5rem;
+                        border-radius: 1.2rem;
+                    }
+
+                    p {
+                        color: white;
+                        padding-top: 1rem;
+                        font-size: 1.3rem;
+                        font-weight: 300;
+                        text-align: center;
+
+                    }
+
+                }
+            }
+        }
+
+        .promo-package-wrapper {
+            padding: 3rem;
+
+            .promo-wrapper-parent {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .promo-wrapper-child {
+                    h1 {
+                        color: white;
+                        font-size: 2.2rem;
+                        font-weight: 400;
+                    }
+
+                    img {
+                        padding: 1rem;
+                        background: rgb(40, 40, 40);
+                        height: 3.5rem;
+
+                    }
+                }
+
+            }
+
+            .promo-package-parent {
+                width: 100%;
+                padding: 3rem;
+
+                .promo-package-child {
+                    background-color: rgb(27, 27, 27);
+                    border-radius: 1.5rem;
+
+
+                    img {
+                        width: 100%;
+                    }
+
+                    .paragraph {
+                        background-color: black;
+                        color: white;
+                        width: 10%;
+                        padding: 0.5rem;
+
+
+                    }
+
+                    h1 {
+                        color: white;
+                        padding-left: 2rem;
+                        padding-top: 1.5rem;
+                        font-weight: 400;
+                    }
+
+                    h2 {
+                        color: rgb(233, 233, 195);
+                        padding-left: 2rem;
+                        padding-top: 2rem;
+                        padding-bottom: 2rem;
+                        font-weight: 400;
+                        font-size: 1.8rem;
+                    }
+                }
+            }
+        }
+
+        .membership-status-wrapper {
+            padding: 3rem;
+
+            .membership-wrapper-parent {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .membership-wrapper-child {
+                    h1 {
+                        color: white;
+                        font-size: 2.2rem;
+                        font-weight: 400;
+                    }
+
+                    img {
+                        padding: 1rem;
+                        background: rgb(40, 40, 40);
+                        height: 3.5rem;
+                    }
+                }
+            }
+
+            .membership-status-parent {
+                width: 100%;
+                padding: 3rem;
+
+                .membership-status-child {
+                    background-color: rgb(27, 27, 27);
+                    border-radius: 1.5rem;
+
+                    .membership-info-img {
+                        display: flex;
+                        justify-content: center;
+                        padding: 4rem;
+
+
+                        img {
+                            width: 45%;
+                            align-items: center;
+
+                        }
+                    }
+
+                    .membership-info {
+                        h1 {
+                            color: white;
+                            text-align: center;
+                            padding: 0.7rem;
+                            font-size: 2.3rem;
+                            font-weight: 500;
+                        }
+
+                        h2 {
+                            padding: 1rem;
+                            color: rgb(233, 233, 195);
+                            text-align: center;
+                            font-size: 2.2rem;
+                            font-weight: 400;
+                        }
+                    }
+
+
+
+
+                    .unlock-icon {
+                        padding: 0.8rem;
+                        padding-bottom: 3rem;
+
+                        .unlock-icon-parent {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            .unlock-icon-child {
+                                align-items: center;
+
+                                img {
+                                    height: 2rem;
+                                }
+
+                                h2 {
+
+                                    color: rgb(233, 233, 195);
+                                    text-align: center;
+                                    font-size: 2.2rem;
+                                    font-weight: 400;
+                                    padding-left: 1rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .business-partner-wrapper {
+            padding: 3rem;
+
+            .business-partner-parent {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .business-partner-child {
+                    h1 {
+                        color: white;
+                        font-size: 2.2rem;
+                        font-weight: 400;
+                    }
+
+                    img {
+                        padding: 1rem;
+                        background: rgb(40, 40, 40);
+                        height: 3.5rem;
+                    }
+                }
+            }
+
+            .business-img-parent {
+                width: 100%;
+                padding: 3rem;
+
+                .business-img-child {
+                    background-color: rgb(27, 27, 27);
+                    border-radius: 1.5rem;
+
+                    .business-info-img {
+                        display: flex;
+                        justify-content: center;
+                        padding: 4rem;
+
+                        img {
+                            width: 100%;
+                            align-items: center;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .navigation-bar-wrapper {
+
+            background-color: rgb(27, 27, 27);
+            margin-top: 2rem;
+
+
+            .navigation-bar-parent {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                .navigation-bar-child {
+
+                    .navigation-info-image {
+                        width: 100%;
+
+                        img {
+                            height: 3.5rem;
+                        }
+
+                        h3 {
+                            color: white;
+                            padding-top: 0.5rem;
+                            font-size: 2rem;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+
+        // data-optimization.html
+
+        .data-optimization-wrapper {
+            margin-top: 5rem;
+            padding: 2rem;
+
+            .page-title-parent {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                .page-title-child {
+                    img {
+                        width: 4rem;
+                        height: auto;
+                        border: 0.35rem solid rgb(118, 117, 117);
+                        border-radius: 3.5rem;
+                        padding: 0.7rem;
+                    }
+
+                    h1 {
+                        color: white;
+                        font-size: 2.8rem;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            .page-description-image {
+                padding-top: 3rem;
+
+                .description-image-parent {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+
+                    .description-image-child {
+                        background-color: rgb(27, 27, 27);
+                        padding: 1rem;
+                        margin-bottom: 1.5rem;
+                        margin-left: 1rem;
+
+                        border-radius: 0.8rem;
+                        flex: 1;
+
+                        .description-img {
+                            img {
+                                height: 5.5rem;
+                                width: 5.5rem;
+                            }
+
+                            .img-info {
+                                color: white;
+
+                                p {
+                                    padding-bottom: 0.7rem;
+                                    font-size: 1.5rem;
+                                    padding-right: 3.5rem;
+                                }
+
+                                h2 {
+                                    padding-bottom: 0.7rem;
+                                    font-size: 1.7rem;
+                                    font-weight: 400;
+                                }
+
+                                h1 {
+                                    font-weight: 400;
+                                    color: rgb(192, 193, 196);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .booking-button {
+                width: 98%;
+                display: flex;
+                justify-content: center;
+                border: 0.18rem solid rgb(74, 72, 72);
+                align-items: center;
+                margin-left: 1rem;
+                border-radius: 0.5rem;
+                margin-top: 0.8rem;
+
+                h1 {
+                    color: white;
+                    padding: 1.3rem;
+                    font-weight: 400;
+                    font-size: 1.8rem;
+                }
+
+            }
+
+            .explore-image {
+                padding: 1rem;
+                margin-top: 3rem;
+
+
+                .img-title {
+                    h1 {
+                        color: white;
+                        margin-bottom: 2.5rem;
+                        font-weight: 400;
+                        font-size: 2.3rem;
+                    }
+                }
+
+                .main-img {
+                    background: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../images/explore-image.jpg");
+                    height: 38rem;
+                    background-size: cover;
+                    border-radius: 1rem;
+                    margin-bottom: 2rem;
+
+                    .img-description {
+                        color: white;
+                        margin-left: 3rem;
+
+                        h1 {
+                            font-size: 2.3rem;
+                            font-weight: 300;
+                            padding-top: 23rem;
+                        }
+
+                        p {
+                            padding-top: 2rem;
+                            font-size: 1.5rem;
+                            font-weight: 300;
+                        }
+                    }
+                }
+
+                .yacht-img {
+                    background: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.552)), url("../images/yacht-image.jpg");
+                    height: 38rem;
+                    background-size: cover;
+                    border-radius: 1rem;
+                    margin-bottom: 2rem;
+
+                    .img-description {
+                        color: white;
+                        margin-left: 3rem;
+
+                        h1 {
+                            font-size: 2.3rem;
+                            font-weight: 300;
+                            padding-top: 23rem;
+                        }
+
+                        p {
+                            padding-top: 2rem;
+                            font-size: 1.5rem;
+                            font-weight: 300;
+                        }
+                    }
+                }
+
+                .wine-tour-img {
+                    background: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.552)), url("../images/wine-tour.jpg");
+                    height: 38rem;
+                    background-size: cover;
+                    border-radius: 1rem;
+
+                    .img-description {
+                        color: white;
+                        margin-left: 3rem;
+
+                        h1 {
+                            font-size: 2.3rem;
+                            font-weight: 300;
+                            padding-top: 23rem;
+                        }
+
+                        p {
+                            padding-top: 2rem;
+                            font-size: 1.5rem;
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+        }
+
+        // submit.html
+
+        .background-image {
+            background: linear-gradient(rgba(0, 0, 0, 0.079), rgba(0, 0, 0, 0.552)), url("../images/Submit-image.png");
+            height: 55rem;
+            background-size: cover;
+
+            .arrow-icon {
+                img {
+                    width: 3rem;
+                    height: auto;
+                    border: 0.2rem solid rgb(118, 117, 117);
+                    border-radius: 3.5rem;
+                    padding: 0.5rem;
+                    margin-top: 7rem;
+                    margin-left: 3rem;
+                }
+            }
+
+            .submit-details {
+                background-color: rgb(19, 19, 19);
+                margin-top: 32rem;
+                border-radius: 1.5rem;
+
+                .submit-details-parent {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 0rem 3rem;
+
+                    .submit-details-child {
+                        color: white;
+                        padding-top: 2rem;
+
+                        h1 {
+                            font-size: 2.3rem;
+                            font-weight: 400;
+                        }
+
+                        p {
+                            padding-bottom: 0.3rem;
+                            font-weight: 400;
+                            font-size: 1.1rem;
+                        }
+
+                        h2 {}
+
+                    }
+                }
+
+                .border {
+                    border: 0.13rem solid rgb(166, 160, 160);
+                    width: 15%;
+                    margin-top: 3.5rem;
+                    margin-left: 3rem;
+                }
+
+                .price-option {
+                    margin-top: 3rem;
+
+                    .price-option-parent {
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+
+                        .price-option-child {
+                            border: 0.12rem solid white;
+                            color: white;
+                            padding: 1rem;
+                            padding-right: 6.5rem;
+                            border-radius: 0.5rem;
+                            margin-left: 1rem;
+
+                            p {
+                                color: #8c8b8b;
+                                padding-bottom: 0.5rem;
+                            }
+
+                            h2 {
+                                font-weight: 400;
+                                font-size: 1.4rem;
+                            }
+                        }
+                    }
+                }
+
+                .rating-option {
+                    .rating-option-parent {
+                        margin: 3rem;
+                        display: flex;
+                        justify-content: space-between;
+
+                        .rating-option-child {
+                            color: white;
+
+                            h2 {
+                                font-size: 1.8rem;
+                                font-weight: 400;
+                                padding-bottom: 0.5rem;
+                            }
+
+                            p {
+                                color: #8c8b8b;
+                            }
+                        }
+                    }
+                }
+
+                .submit-button {
+                    margin: 5rem 3rem;
+
+                    button {
+                        padding: 1.3rem;
+                        font-size: 1.4rem;
+                        font-weight: 700;
+                        width: 100%;
+                        text-align: center;
+                        border-radius: 0.5rem;
+                    }
+                }
+            }
+
+
+
+        }
+
+        // dealing-page.html
+
+        .records-wrapper {
+            margin-top: 5rem;
+            padding: 2rem;
+
+            .page-title-parent {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                .page-title-child {
+                    color: white;
+
+                    img {
+                        width: 3rem;
+                        height: auto;
+                        border: 0.2rem solid rgb(118, 117, 117);
+                        border-radius: 3.5rem;
+                        padding: 0.5rem;
+                    }
+
+                    h1 {
+                        font-size: 2.6rem;
+                    }
+                }
+            }
+
+            .navigation-heading {
+                margin-top: 4rem;
+
+                .navigation-heading-parent {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+
+                    .navigation-heading-child {
+                        color: #aea9a9;
+
+                        h3 {
+                            font-size: 1.2rem;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+
+            .card-details {
+                margin-top: 4rem;
+                border: 0.15rem solid rgb(61, 60, 60);
+                border-radius: 1rem;
+
+                .details-img {
+                    display: flex;
+                    justify-content: center;
+
+                    img {
+                        height: 20rem;
+                        width: 100%;
+                        border-radius: 0.8rem;
+                    }
+
+                }
+
+                .img-briefing {
+                    background-color: rgb(26, 25, 25);
+                    border-radius: 1rem;
+
+                    .briefing-parent {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        .briefing-child {
+                            color: white;
+
+                            p {
+                                background-color: rgb(26, 25, 25);
+                                padding: 0.8rem;
+                                font-size: 1.2rem;
+                                font-weight: 400;
+                                margin-top: -2.9rem;
+                                border-radius: 0.3rem;
+                            }
+
+                            h2 {
+                                font-size: 1.7rem;
+                                font-weight: 600;
+                                margin-top: -3rem;
+                                padding-right: 1.5rem;
+                            }
+                        }
+                    }
+
+                    .details-heading {
+                        margin-top: 2rem;
+                        color: white;
+                        padding-left: 2rem;
+
+                        h2 {
+                            font-size: 2.2rem;
+                            font-weight: 400;
+                            padding-bottom: 1rem;
+                        }
+
+                        p {
+                            color: #8c8b8b;
+                            font-size: 1.3rem;
+                            font-weight: 400;
+                        }
+                    }
+
+                    .price-option {
+                        padding: 2rem;
+
+                        .price-option-parent {
+                            display: flex;
+                            justify-content: space-around;
+
+                            .price-option-child {
+                                align-items: center;
+                                border: 0.15rem solid rgb(45, 45, 45);
+                                color: white;
+                                padding: 1.5rem;
+                                padding-right: 5rem;
+                                border-radius: 0.5rem;
+
+                                p {
+                                    color: #8c8b8b;
+                                    padding-bottom: 0.5rem;
+                                }
+
+                                h2 {
+                                    font-weight: 400;
+                                    font-size: 1.4rem;
+                                }
+                            }
+                        }
+                    }
+
+                    .submit-button {
+                        padding: 2rem 2rem;
+
+                        button {
+                            background-color: rgb(45, 45, 45);
+                            color: white;
+                            padding: 1.5rem;
+                            font-size: 1.4rem;
+                            font-weight: 600;
+                            width: 100%;
+                            border-radius: 0.5rem;
+                            border: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        // support-page.html
+
+        .main-div {
+            background: linear-gradient(rgba(0, 0, 0, 0.595), rgba(0, 0, 0, 0.714)), url("../images/support-page-img.jpg");
+            height: 30rem;
+            background-size: cover;
+
+            .arrow-icon {
+                img {
+                    width: 3rem;
+                    height: auto;
+                    border: 0.2rem solid rgb(165, 164, 164);
+                    border-radius: 3.5rem;
+                    padding: 0.5rem;
+                    margin-top: 7rem;
+                    margin-left: 3rem;
+                }
+            }
+        }
+
+        .platform-logo {
+            padding-top: 5rem;
+            background-color: rgb(13, 13, 13);
+            border-radius: 1rem;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            border: 0.1rem solid rgb(70, 70, 70);
+
+            img {
+                height: 4rem;
+            }
+
+            h1 {
+                color: white;
+                text-align: center;
+                padding-top: 1.2rem;
+                font-size: 3rem;
+                font-weight: 400;
+            }
+
+            .logo-details {
+                color: white;
+                text-align: center;
+                padding-top: 2.5rem;
+
+                h2 {
+                    font-size: 2.2rem;
+                    font-weight: 400;
+                    padding-bottom: 2rem;
+                }
+
+                h4 {
+                    font-size: 1.5rem;
+                    font-weight: 400;
+                    color: #787878;
+                }
+
+                p {
+                    padding-top: 1rem;
+                    font-size: 1.3rem;
+                    font-weight: 400;
+                }
+
+            }
+
+            .msg-btn {
+                padding: 10rem 0rem;
+                display: flex;
+                justify-content: center;
+
+                button {
+                    padding: 1.5rem;
+                    font-size: 1.4rem;
+                    font-weight: 700;
+                    width: 80%;
+                    border-radius: 0.5rem;
+                }
+            }
+        }
+
+        // link-wallet.html
+        .link-wallet-wrapper {
+            .arrow-icon {
+                img {
+                    width: 3rem;
+                    height: auto;
+                    border: 0.2rem solid rgb(165, 164, 164);
+                    border-radius: 3.5rem;
+                    padding: 0.5rem;
+                    margin-top: 5rem;
+                    margin-left: 3rem;
+                }
+            }
+
+            .wallet-details {
+                margin-top: 5rem;
+                text-align: center;
+
+                h1 {
+                    color: white;
+                    font-size: 2.7rem;
+                    font-weight: 400;
+                }
+
+                img {
+                    padding-top: 1.5rem;
+                    height: 3.7rem;
+                }
+            }
+        }
+
+        .wallet-form {
+            margin-top: 5rem;
+            background-color: #1f1e1e;
+            border-top: 0.1rem solid rgb(70, 70, 70);
+            border-radius: 1rem 1rem 0rem 0rem;
+            padding-top: 2rem;
+
+            .wallet-form-details {
+                display: flex;
+                justify-content: center;
+                padding: 2rem 3rem;
+
+                input,
+                select {
+                    width: 100%;
+                    padding: 1.8rem 1.4rem;
+                    border-radius: 1rem;
+                    outline: none;
+                    border: none;
+                    font-size: 1.4rem;
+
+                    &::placeholder {
+                        font-size: 1.5rem;
+                    }
+
+                }
+            }
+
+            .link-btn {
+                padding: 6rem 3rem;
+                padding-bottom: 10rem;
+                display: flex;
+                justify-content: center;
+                outline: none;
+                border: none;
+
+                button {
+                    padding: 1.8rem 1.4rem;
+                    font-size: 1.6rem;
+                    font-weight: 600;
+                    width: 100%;
+                    border-radius: 0.5rem;
+                }
+            }
+        }
+
+        // withdrawal-page.html & withdraw-page-2.htm
+
+        .withdraw-wrapper {
+            margin-top: 5rem;
+
+            .page-title-parent {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                .page-title-child {
+                    color: white;
+
+                    img {
+                        width: 3rem;
+                        height: auto;
+                        border: 0.2rem solid rgb(118, 117, 117);
+                        border-radius: 3.5rem;
+                        padding: 0.5rem;
+                    }
+
+                    h1 {
+                        font-size: 2.3rem;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            .wallet-card {
+                background: url("../images/Rectangle.png");
+                background-size: cover;
+                margin: 5rem 3rem 3rem;
+                padding: 3rem;
+                border-radius: 1rem;
+
+                .card-filling {
+                    width: 100%;
+
+                    .card-filling-parent {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+
+                        .card-filling-child {
+                            img {
+                                width: 2rem;
+                                height: auto;
+                            }
+                        }
+
+                        .icon {
+                            img {
+                                height: auto;
+                                width: 1.5rem;
+                            }
+
+                        }
+                    }
+                }
+
+                .card-filling-details {
+                    margin-top: 2rem;
+                    color: white;
+
+                    p {
+                        font-size: 1.3rem;
+                        font-weight: 300;
+                    }
+
+                    h1 {
+                        margin-top: 1rem;
+                        font-size: 1.5rem;
+                        font-weight: 600;
+                        margin-bottom: 4.5rem;
+
+                        span {
+                            font-size: 2.4rem;
+                        }
+                    }
+
+                }
+            }
+
+            .card-info {
+                margin-top: 20rem;
+
+                text-align: center;
+
+                h2 {
+                    font-size: 2.1rem;
+                    font-weight: 400;
+                    margin-bottom: 1rem;
+                    color: white;
+                }
+
+                p {
+                    font-size: 1.7rem;
+                    font-weight: 400;
+                    color: #787878;
+                }
+            }
+
+            .link-btn {
+                padding: 6rem 2rem;
+                display: flex;
+                justify-content: center;
+                outline: none;
+                border: none;
+
+                button {
+                    padding: 1.8rem 1.4rem;
+                    font-size: 1.6rem;
+                    font-weight: 600;
+                    width: 100%;
+                    border-radius: 0.5rem;
+                }
+            }
+
+            .card-details {
+                margin: 3rem;
+
+                h3 {
+                    color: white;
+                    font-weight: 400;
+                    font-size: 1.4rem;
+                }
+
+                .price-option {
+                    border: 0.1rem solid #787878;
+                    margin-top: 1.5rem;
+                    padding: 1rem;
+                    border-radius: 0.5rem;
+
+                    p {
+                        font-weight: 300;
+                        font-size: 1.2rem;
+                        color: #787878;
+                    }
+
+                    h2 {
+                        color: white;
+                        padding-top: 0.7rem;
+                        font-weight: 400;
+                    }
+                }
+
+                .price-option-parent {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    margin-top: 1rem;
+
+                    .price-option-child {
+                        border: 0.1rem solid #787878;
+                        padding: 1rem;
+                        border-radius: 0.5rem;
+                        flex: 1;
+                        margin: 0.2rem;
+
+                        h2 {
+                            color: #787878;
+                            font-weight: 400;
+                            font-size: 1.4rem;
+                            text-align: center;
+                        }
+                    }
+                }
+
+                .password-title {
+                    margin-top: 2.5rem;
+
+                    h3 {
+                        color: white;
+                        font-weight: 400;
+                        font-size: 1.4rem;
+                    }
+
+                    .withdrawal-password {
+                        margin-top: 1.4rem;
+                        border: 0.1rem solid #787878;
+                        padding: 1rem;
+                        border-radius: 0.5rem;
+
+                        p {
+                            color: #787878;
+                            font-size: 1.2rem;
+                            font-weight: 400;
+                        }
+
+                        h2 {
+                            padding-top: 0.5rem;
+                            color: white;
+                            font-size: 1.6rem;
+                            font-weight: 400;
+                        }
+
+                    }
+                }
+
+                .withdrawal-details {
+                    margin-top: 5rem;
+
+                    .withdrawal-to {
+                        margin-bottom: 2rem;
+                        position: relative;
+                        display: flex;
+                        justify-content: center;
+
+                        h3 {
+                            text-align: center;
+                            position: relative;
+                            z-index: 2;
+                            background-color: rgb(16, 16, 16);
+                            display: inline-flex;
+                            padding: 0rem 1rem;
+
+                        }
+
+                        div {
+                            height: 0.2rem;
+                            background-color: #8c8b8b;
+                            position: absolute;
+                            width: 100%;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+                    }
+
+                    .withdrawal-details-parent {
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        border: 0.1rem solid #787878;
+                        border-radius: 0.5rem 0.5rem 0rem 0rem;
+                        padding: 1rem;
+                        text-align: center;
+
+                        .withdrawal-details-child {
+                            p {
+                                color: #787878;
+                                margin-bottom: 0.5rem;
+                                font-size: 1rem;
+                            }
+
+                            h2 {
+                                color: white;
+                                font-weight: 300;
+                            }
+                        }
+
+                    }
+
+                    .withdrawal-details-parent2 {
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        border: 0.1rem solid #787878;
+                        border-radius: 0rem 0rem 0.5rem 0.5rem;
+                        padding: 1rem;
+                        text-align: center;
+
+                        .withdrawal-details-child {
+                            p {
+                                color: #787878;
+                                margin-bottom: 0.5rem;
+                                font-size: 1rem;
+                            }
+
+                            h2 {
+                                color: white;
+                                font-weight: 300;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // withdraw-history.html
+        .withdraw-history-wrapper {
+            margin-top: 5rem;
+
+            .page-title-parent {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                .page-title-child {
+                    color: white;
+
+                    img {
+                        width: 3rem;
+                        height: auto;
+                        border: 0.2rem solid rgb(118, 117, 117);
+                        border-radius: 3.5rem;
+                        padding: 0.5rem;
+                    }
+
+                    h1 {
+                        font-size: 2.3rem;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            .navigation-heading {
+                margin-top: 4rem;
+
+                .navigation-heading-parent {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+
+                    .navigation-heading-child {
+                        color: #aea9a9;
+
+                        h3 {
+                            font-size: 1.2rem;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+
+            .transfer-details-wrapper {
+                background-color: #1d1c1c;
+                border-radius: 0.5rem;
+                margin-top: 3rem;
+                margin-right: 3rem;
+                margin-left: 3rem;
+
+
+
+                .transfer-details {
+                    color: #d5d5d5;
+                    padding-left: 2rem;
+
+                    h1 {
+                        font-size: 1.7rem;
+                        font-weight: 400;
+                        padding-top: 2rem;
+                    }
+
+                    h4 {
+                        font-size: 1.2rem;
+                        font-weight: 300;
+                        padding-top: 0.3rem;
+                    }
+
+                    p {
+                        padding-top: 1.3rem;
+                        font-size: 1.1rem;
+                        font-weight: 100;
+                    }
+                }
+
+                .border {
+                    border: 0.1rem solid #363636;
+                    margin: 2rem 2rem;
+                }
+
+                .transfer-details-parent {
+                    margin-top: 1.5rem;
+                    padding-left: 2rem;
+                    display: flex;
+                    justify-content: space-between;
+
+
+
+                    .transfer-details-child {
+                        color: white;
+                        padding-bottom: 2rem;
+
+                        h3 {
+                            background-color: rgb(212, 94, 51);
+                            padding: 0.4rem 1rem;
+                            border-radius: 0.5rem;
+                            font-size: 1rem;
+                            font-weight: 400;
+                        }
+
+                        span {
+                            h3 {
+                                background-color: rgb(5, 97, 246);
+                                margin-right: 13rem;
+                            }
+                        }
+
+                        h2 {
+                            padding-right: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        // security-centre.html
+        .login-wraper {
+            .page-title-parent {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                .page-title-child {
+                    color: white;
+
+                    img {
+                        width: 3rem;
+                        height: auto;
+                        border: 0.2rem solid rgb(118, 117, 117);
+                        border-radius: 3.5rem;
+                        padding: 0.5rem;
+                    }
+
+                    h1 {
+                        font-size: 2.3rem;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            .login-wraper-parent {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                .login-wraper-child {
+                    h1 {
+                        color: white;
+                        margin-top: 12rem;
+                        font-size: 2.5rem;
+                        font-weight: 300;
+                    }
+
+                    img {
+                        margin-top: 2rem;
+                        width: 25rem;
+                    }
+                }
+            }
+
+            .auth-options {
+
+                .auth-options-parent {
+                    display: flex;
+                    justify-content: space-around;
+
+                    .auth-options-child:first-child {
+                        background-color: rgb(36, 34, 34);
+                    }
+
+                    .auth-options-child {
+                        margin-top: 5rem;
+
+                        h2 {
+                            color: white;
+                            padding: 1rem 6.8rem;
+                            font-weight: 400;
+                            font-size: 1.4rem;
+                        }
+                    }
+
+                }
+            }
+
+            .login-form-wraper {
+                padding-bottom: 2.5rem;
+                background-color: rgb(36, 34, 34);
+
+                .login-form {
+                    padding: 2rem 3.5rem;
+
+                    .login-form-parent {
+                        margin-top: 3rem;
+
+                        .login-form-child {
+                            margin-bottom: 1.5rem;
+
+                            input {
+                                font-size: 1.5rem;
+                                padding: 1.3rem 1.2rem;
+                                width: 100%;
+                                border-radius: 1rem;
+                                outline: none;
+                            }
+                        }
+                    }
+                }
+            }
+
+
+            .login-button {
+                margin-top: 10rem;
+                text-align: center;
+                padding: 0rem 3.5rem;
+                outline: none;
+
+                button {
+                    padding: 1.5rem 2rem;
+                    width: 100%;
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                    border-radius: 1rem;
+
+                }
+            }
+        }
+    }
+}
